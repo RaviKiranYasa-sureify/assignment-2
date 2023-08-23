@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script type="module" src = "../dist/routes/Routes.js" defer></script>
 </head>
-<script src="../dist/index.js" defer></script>
 
 <body>
     <div id="login-form">
@@ -14,8 +14,8 @@
         <input type="text" id="login-username"> <br><br>
         <label>Password : </label>
         <input type="password" id="login-password"><br><br>
-        <button id="login" onClick="authenticate()">Login </button>
-        <button id="register" onClick="renderPage('Register.html')">Register </button>
+        <button id="login" onclick="authenticate()">Login </button>
+        <button id="register" onclick="renderPage('../src/templates/Register.html')">Register </button>
     </div>
 </body>
 

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1692711408309" clover="3.2.0">
+  <project timestamp="1692711408309" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="8" coveredconditionals="7" methods="6" coveredmethods="6" elements="31" coveredelements="30" complexity="0" loc="17" ncloc="17" packages="2" files="3" classes="3"/>
+    <package name="repository">
+      <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="5" methods="5" coveredmethods="5"/>
+      <file name="Auth.ts" path="/home/ravikiran/Desktop/typescript/assignment/assignment-2/src/repository/Auth.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+      <file name="User.ts" path="/home/ravikiran/Desktop/typescript/assignment/assignment-2/src/repository/User.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="17" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="types">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="Enums.ts" path="/home/ravikiran/Desktop/typescript/assignment/assignment-2/src/types/Enums.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
